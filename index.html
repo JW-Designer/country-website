@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To The Underworld</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/png" href="96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <a href="#discover" class="screenreader-only">Jump to Content</a>
+
+    <!-- Header Section -->
+    <header>
+        <img src="world.JPG" alt="Scenic picture of the underworld, with unique buildings." class="header-image"> 
+        
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="logo.png" alt="Logo"> <!-- Replace with your actual logo path -->
+            </div>
+
+            <!-- Navbar -->
+            <nav>
+                <ul class="menu">
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="index.html">Attraction</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="credit.html">Credits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1 class="main-heading">Explore A Popular Attraction - And Learn River Styx's Water Temperature!</h1>
+        <section id="discover" >
+            <video controls width="100%" autoplay muted>
+                <source src="media/media.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+        </section>
+        <section>
+            <div class="info-card card-reversed">
+                <div class="card-body">
+                    <h2 class="card-heading">Uncover the Shorelines</h2>
+                    <p class="card-text">
+                            Our coastlines offer stunning views and refreshing ocean experiences. Discover tranquil beaches, amazing sunsets, and vibrant undead marine life along every stretch. Relax or explore, these coasts have it all!
+                    </p>
+                    <table>
+                        <caption>Seasonal Water Temperatures</caption>
+                        <tr>
+                            <th>Month</th>
+                            <th>Apr</th>
+                            <th>May</th>
+                            <th>Jun</th>
+                            <th>Jul</th>
+                            <th>Aug</th>
+                            <th>Sep</th>
+                            <th>Oct</th>
+                        </tr>
+                        <tr>
+                            <th>Min °C</th>
+                            <td>13.1</td><td>17.5</td><td>20.9</td><td>23.4</td><td>25.3</td><td>23.5</td><td>19.7</td>
+                        </tr>
+                        <tr>
+                            <th>Max °C</th>
+                            <td>16.8</td><td>21.4</td><td>25.2</td><td>28.7</td><td>28.9</td><td>27.1</td><td>24.1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 | J-Wang. For Education Purposes</p>
+    </footer>
+
+</body>
+</html>
