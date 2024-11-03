@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="512" height="512"><svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M216.685 266C216.685 293.577 194.275 316 166.548 316C138.821 316 116.411 293.577 116.411 266C116.411 238.423 138.821 216 166.548 216C194.275 216 216.685 238.423 216.685 266Z" stroke="white" stroke-width="40"></path>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M396 405.714C444.86 365.362 476 304.317 476 236C476 114.497 377.503 16 256 16C134.497 16 36 114.497 36 236C36 304.317 67.1399 365.362 116 405.714V496H396V405.714ZM356 386.87L370.529 374.872C410.583 341.793 436 291.882 436 236C436 136.589 355.411 56 256 56C156.589 56 76 136.589 76 236C76 291.882 101.417 341.793 141.471 374.872L156 386.87V456H196V416H236V456H276V416H316V456H356V386.87Z" fill="white"></path>
+<circle cx="346" cy="266" r="50" stroke="white" stroke-width="40"></circle>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: contrast(1) brightness(0.1); } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
