@@ -1,11 +1,11 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Font and Color Scheme */
+/* Font and Color */
 body {
     font-family: 'Nunito', sans-serif;
     color: #d2e8ed;
@@ -127,7 +127,7 @@ nav {
 .projects-card {
     background-color: #fff;
     border-radius: 8px;
-    width: calc(50% - 10px); /* Two cards per row with consistent gap */
+    width: calc(50% - 0.625rem); 
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -228,7 +228,7 @@ button:hover {
 /* Grid Styles */
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem; 
     margin: 1.25rem 0; 
 }
@@ -248,7 +248,7 @@ button:hover {
 .grid-title {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #ff7a59; /* Matches your color scheme */
+    color: #ff7a59; 
 }
 
 
@@ -275,10 +275,9 @@ footer {
     border: 0;           
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .projects-card {
-        width: 100%; /* Full width for smaller screens */
+        width: 100%;
     }
 
     .header-container {
